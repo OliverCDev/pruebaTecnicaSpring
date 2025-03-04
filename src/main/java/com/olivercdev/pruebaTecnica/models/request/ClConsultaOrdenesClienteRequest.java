@@ -15,5 +15,9 @@ public class ClConsultaOrdenesClienteRequest {
     private String pCodigo;
     @JsonProperty("pIdCliente")
     private String pIdCliente;
+    @JsonProperty("pIdOrden")
+    private String pIdOrden;
+    @JsonProperty("pTotalPagar")
+    private String pTotalPagar;
 
 }

@@ -36,6 +36,8 @@ public class ClConsultaPagoOrdenesClienteResponse extends ResponseModel{
         @JsonProperty("pIdProducto")
         public String pIdProducto;
         @JsonProperty("pNombreProducto")        
+        public String pNombreProducto;
+        @JsonProperty("pCantidadProducto")
         public String pCantidadProducto;
         @JsonProperty("pValorProducto")
         public String pValorProducto;
